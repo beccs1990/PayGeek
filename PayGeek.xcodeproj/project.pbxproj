@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C7F1C85406100BBBF84 /* AppDelegate.swift */; };
-		A9568C821C85406100BBBF84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C811C85406100BBBF84 /* ViewController.swift */; };
-		A9568C851C85406100BBBF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568C831C85406100BBBF84 /* Main.storyboard */; };
+		A9568C821C85406100BBBF84 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C811C85406100BBBF84 /* CreateAccountViewController.swift */; };
 		A9568C871C85406100BBBF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9568C861C85406100BBBF84 /* Assets.xcassets */; };
-		A9568C8A1C85406100BBBF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568C881C85406100BBBF84 /* LaunchScreen.storyboard */; };
 		A9568C951C85406100BBBF84 /* PayGeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C941C85406100BBBF84 /* PayGeekTests.swift */; };
 		A9568CA01C85406100BBBF84 /* PayGeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C9F1C85406100BBBF84 /* PayGeekUITests.swift */; };
+		A9568CAE1C8546F900BBBF84 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */; };
+		A9568CC21C8549CC00BBBF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */; };
+		A9568CC31C8549CC00BBBF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC11C8549CC00BBBF84 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,8 @@
 /* Begin PBXFileReference section */
 		A9568C7C1C85406100BBBF84 /* PayGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9568C7F1C85406100BBBF84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9568C811C85406100BBBF84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9568C841C85406100BBBF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9568C811C85406100BBBF84 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		A9568C861C85406100BBBF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9568C891C85406100BBBF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9568C8B1C85406100BBBF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9568C901C85406100BBBF84 /* PayGeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayGeekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9568C941C85406100BBBF84 /* PayGeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayGeekTests.swift; sourceTree = "<group>"; };
@@ -47,6 +46,9 @@
 		A9568C9B1C85406100BBBF84 /* PayGeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayGeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9568C9F1C85406100BBBF84 /* PayGeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayGeekUITests.swift; sourceTree = "<group>"; };
 		A9568CA11C85406100BBBF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9568CC11C8549CC00BBBF84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,13 @@
 		A9568C7E1C85406100BBBF84 /* PayGeek */ = {
 			isa = PBXGroup;
 			children = (
+				A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */,
+				A9568CC11C8549CC00BBBF84 /* Main.storyboard */,
 				A9568C7F1C85406100BBBF84 /* AppDelegate.swift */,
-				A9568C811C85406100BBBF84 /* ViewController.swift */,
-				A9568C831C85406100BBBF84 /* Main.storyboard */,
+				A9568C811C85406100BBBF84 /* CreateAccountViewController.swift */,
 				A9568C861C85406100BBBF84 /* Assets.xcassets */,
-				A9568C881C85406100BBBF84 /* LaunchScreen.storyboard */,
 				A9568C8B1C85406100BBBF84 /* Info.plist */,
+				A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */,
 			);
 			path = PayGeek;
 			sourceTree = "<group>";
@@ -229,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9568C8A1C85406100BBBF84 /* LaunchScreen.storyboard in Resources */,
+				A9568CC31C8549CC00BBBF84 /* Main.storyboard in Resources */,
+				A9568CC21C8549CC00BBBF84 /* LaunchScreen.storyboard in Resources */,
 				A9568C871C85406100BBBF84 /* Assets.xcassets in Resources */,
-				A9568C851C85406100BBBF84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9568C821C85406100BBBF84 /* ViewController.swift in Sources */,
+				A9568C821C85406100BBBF84 /* CreateAccountViewController.swift in Sources */,
+				A9568CAE1C8546F900BBBF84 /* MainTableViewController.swift in Sources */,
 				A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +295,6 @@
 			targetProxy = A9568C9C1C85406100BBBF84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A9568C831C85406100BBBF84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9568C841C85406100BBBF84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A9568C881C85406100BBBF84 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9568C891C85406100BBBF84 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A9568CA21C85406100BBBF84 /* Debug */ = {
