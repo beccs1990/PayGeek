@@ -1,0 +1,33 @@
+Income
+- ID (Auto generated)
+- Amount
+- Frequency (Monthly, Fortnightly, Bi-Weekly, Weekly, Daily, Hourly)
+- Start_Date
+
+Expense
+- ID (Auto generated)
+- Trx_date
+- Amount
+- Desc
+- Category
+
+Category
+- ID (3 Digit)
+- Desc (Below will be predefined)
+  - Mortgage
+  - Loan Payment
+  - Utilities
+  - Food
+  - Entertainment
+  - Clothing
+  - Commute
+  - Misc
+  - Custom (to be programmed)
+
+WishList
+- ID (Auto generated)
+- Date_Upd
+- Item_Desc
+- Amount
+- Wish_date
+- Level (High, Medium, Low)
