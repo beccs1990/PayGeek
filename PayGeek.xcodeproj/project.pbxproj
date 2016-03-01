@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C7F1C85406100BBBF84 /* AppDelegate.swift */; };
+		A9568C821C85406100BBBF84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C811C85406100BBBF84 /* ViewController.swift */; };
+		A9568C851C85406100BBBF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568C831C85406100BBBF84 /* Main.storyboard */; };
+		A9568C871C85406100BBBF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9568C861C85406100BBBF84 /* Assets.xcassets */; };
+		A9568C8A1C85406100BBBF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568C881C85406100BBBF84 /* LaunchScreen.storyboard */; };
+		A9568C951C85406100BBBF84 /* PayGeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C941C85406100BBBF84 /* PayGeekTests.swift */; };
+		A9568CA01C85406100BBBF84 /* PayGeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C9F1C85406100BBBF84 /* PayGeekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9568C911C85406100BBBF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9568C741C85406100BBBF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9568C7B1C85406100BBBF84;
+			remoteInfo = PayGeek;
+		};
+		A9568C9C1C85406100BBBF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9568C741C85406100BBBF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9568C7B1C85406100BBBF84;
+			remoteInfo = PayGeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9568C7C1C85406100BBBF84 /* PayGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9568C7F1C85406100BBBF84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9568C811C85406100BBBF84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9568C841C85406100BBBF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9568C861C85406100BBBF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9568C891C85406100BBBF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9568C8B1C85406100BBBF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9568C901C85406100BBBF84 /* PayGeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayGeekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9568C941C85406100BBBF84 /* PayGeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayGeekTests.swift; sourceTree = "<group>"; };
+		A9568C961C85406100BBBF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9568C9B1C85406100BBBF84 /* PayGeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayGeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9568C9F1C85406100BBBF84 /* PayGeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayGeekUITests.swift; sourceTree = "<group>"; };
+		A9568CA11C85406100BBBF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9568C791C85406100BBBF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9568C8D1C85406100BBBF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9568C981C85406100BBBF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9568C731C85406100BBBF84 = {
+			isa = PBXGroup;
+			children = (
+				A9568C7E1C85406100BBBF84 /* PayGeek */,
+				A9568C931C85406100BBBF84 /* PayGeekTests */,
+				A9568C9E1C85406100BBBF84 /* PayGeekUITests */,
+				A9568C7D1C85406100BBBF84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9568C7D1C85406100BBBF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9568C7C1C85406100BBBF84 /* PayGeek.app */,
+				A9568C901C85406100BBBF84 /* PayGeekTests.xctest */,
+				A9568C9B1C85406100BBBF84 /* PayGeekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9568C7E1C85406100BBBF84 /* PayGeek */ = {
+			isa = PBXGroup;
+			children = (
+				A9568C7F1C85406100BBBF84 /* AppDelegate.swift */,
+				A9568C811C85406100BBBF84 /* ViewController.swift */,
+				A9568C831C85406100BBBF84 /* Main.storyboard */,
+				A9568C861C85406100BBBF84 /* Assets.xcassets */,
+				A9568C881C85406100BBBF84 /* LaunchScreen.storyboard */,
+				A9568C8B1C85406100BBBF84 /* Info.plist */,
+			);
+			path = PayGeek;
+			sourceTree = "<group>";
+		};
+		A9568C931C85406100BBBF84 /* PayGeekTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9568C941C85406100BBBF84 /* PayGeekTests.swift */,
+				A9568C961C85406100BBBF84 /* Info.plist */,
+			);
+			path = PayGeekTests;
+			sourceTree = "<group>";
+		};
+		A9568C9E1C85406100BBBF84 /* PayGeekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9568C9F1C85406100BBBF84 /* PayGeekUITests.swift */,
+				A9568CA11C85406100BBBF84 /* Info.plist */,
+			);
+			path = PayGeekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9568C7B1C85406100BBBF84 /* PayGeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9568CA41C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeek" */;
+			buildPhases = (
+				A9568C781C85406100BBBF84 /* Sources */,
+				A9568C791C85406100BBBF84 /* Frameworks */,
+				A9568C7A1C85406100BBBF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayGeek;
+			productName = PayGeek;
+			productReference = A9568C7C1C85406100BBBF84 /* PayGeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9568C8F1C85406100BBBF84 /* PayGeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9568CA71C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeekTests" */;
+			buildPhases = (
+				A9568C8C1C85406100BBBF84 /* Sources */,
+				A9568C8D1C85406100BBBF84 /* Frameworks */,
+				A9568C8E1C85406100BBBF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9568C921C85406100BBBF84 /* PBXTargetDependency */,
+			);
+			name = PayGeekTests;
+			productName = PayGeekTests;
+			productReference = A9568C901C85406100BBBF84 /* PayGeekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9568C9A1C85406100BBBF84 /* PayGeekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9568CAA1C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeekUITests" */;
+			buildPhases = (
+				A9568C971C85406100BBBF84 /* Sources */,
+				A9568C981C85406100BBBF84 /* Frameworks */,
+				A9568C991C85406100BBBF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9568C9D1C85406100BBBF84 /* PBXTargetDependency */,
+			);
+			name = PayGeekUITests;
+			productName = PayGeekUITests;
+			productReference = A9568C9B1C85406100BBBF84 /* PayGeekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9568C741C85406100BBBF84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DeAnza;
+				TargetAttributes = {
+					A9568C7B1C85406100BBBF84 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A9568C8F1C85406100BBBF84 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A9568C7B1C85406100BBBF84;
+					};
+					A9568C9A1C85406100BBBF84 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A9568C7B1C85406100BBBF84;
+					};
+				};
+			};
+			buildConfigurationList = A9568C771C85406100BBBF84 /* Build configuration list for PBXProject "PayGeek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9568C731C85406100BBBF84;
+			productRefGroup = A9568C7D1C85406100BBBF84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9568C7B1C85406100BBBF84 /* PayGeek */,
+				A9568C8F1C85406100BBBF84 /* PayGeekTests */,
+				A9568C9A1C85406100BBBF84 /* PayGeekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9568C7A1C85406100BBBF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9568C8A1C85406100BBBF84 /* LaunchScreen.storyboard in Resources */,
+				A9568C871C85406100BBBF84 /* Assets.xcassets in Resources */,
+				A9568C851C85406100BBBF84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9568C8E1C85406100BBBF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9568C991C85406100BBBF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9568C781C85406100BBBF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9568C821C85406100BBBF84 /* ViewController.swift in Sources */,
+				A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9568C8C1C85406100BBBF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9568C951C85406100BBBF84 /* PayGeekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9568C971C85406100BBBF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9568CA01C85406100BBBF84 /* PayGeekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9568C921C85406100BBBF84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9568C7B1C85406100BBBF84 /* PayGeek */;
+			targetProxy = A9568C911C85406100BBBF84 /* PBXContainerItemProxy */;
+		};
+		A9568C9D1C85406100BBBF84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9568C7B1C85406100BBBF84 /* PayGeek */;
+			targetProxy = A9568C9C1C85406100BBBF84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9568C831C85406100BBBF84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9568C841C85406100BBBF84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9568C881C85406100BBBF84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9568C891C85406100BBBF84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9568CA21C85406100BBBF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9568CA31C85406100BBBF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9568CA51C85406100BBBF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayGeek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.deanza.mgoel.PayGeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9568CA61C85406100BBBF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayGeek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.deanza.mgoel.PayGeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9568CA81C85406100BBBF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayGeekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.deanza.mgoel.PayGeekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayGeek.app/PayGeek";
+			};
+			name = Debug;
+		};
+		A9568CA91C85406100BBBF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayGeekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.deanza.mgoel.PayGeekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayGeek.app/PayGeek";
+			};
+			name = Release;
+		};
+		A9568CAB1C85406100BBBF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayGeekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.deanza.mgoel.PayGeekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayGeek;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A9568CAC1C85406100BBBF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayGeekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.deanza.mgoel.PayGeekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayGeek;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9568C771C85406100BBBF84 /* Build configuration list for PBXProject "PayGeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9568CA21C85406100BBBF84 /* Debug */,
+				A9568CA31C85406100BBBF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9568CA41C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9568CA51C85406100BBBF84 /* Debug */,
+				A9568CA61C85406100BBBF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9568CA71C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9568CA81C85406100BBBF84 /* Debug */,
+				A9568CA91C85406100BBBF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9568CAA1C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9568CAB1C85406100BBBF84 /* Debug */,
+				A9568CAC1C85406100BBBF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9568C741C85406100BBBF84 /* Project object */;
+}
