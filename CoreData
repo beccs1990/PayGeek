@@ -9,19 +9,19 @@ Expense
 - Trx_date
 - Amount
 - Desc
-- Category
+- Category ID
 
 Category
-- ID (3 Digit)
+- ID (3 Chars)
 - Desc (Below will be predefined)
-  - Mortgage
-  - Loan Payment
-  - Utilities
-  - Food
-  - Entertainment
-  - Clothing
-  - Commute
-  - Misc
+  - Mortgage (MOR)
+  - Loan Payment (LON)
+  - Utilities (UTL)
+  - Food (FOD)
+  - Entertainment (ENT)
+  - Clothing (CLT)
+  - Commute (COM)
+  - Misc (MIS)
   - Custom (to be programmed)
 
 WishList
