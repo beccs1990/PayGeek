@@ -15,6 +15,7 @@
 		A9568CAE1C8546F900BBBF84 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */; };
 		A9568CC21C8549CC00BBBF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */; };
 		A9568CC31C8549CC00BBBF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC11C8549CC00BBBF84 /* Main.storyboard */; };
+		D3DE0B301C90E0C7004A7ED5 /* PayGeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3DE0B2E1C90E0C7004A7ED5 /* PayGeek.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9568CC11C8549CC00BBBF84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D3DE0B2F1C90E0C7004A7ED5 /* PayGeek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayGeek.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */,
 				A9568CC11C8549CC00BBBF84 /* Main.storyboard */,
 				A9568C7F1C85406100BBBF84 /* AppDelegate.swift */,
+				D3DE0B2E1C90E0C7004A7ED5 /* PayGeek.xcdatamodeld */,
 				A9568C811C85406100BBBF84 /* CreateAccountViewController.swift */,
 				A9568C861C85406100BBBF84 /* Assets.xcassets */,
 				A9568C8B1C85406100BBBF84 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				A9568C821C85406100BBBF84 /* CreateAccountViewController.swift in Sources */,
 				A9568CAE1C8546F900BBBF84 /* MainTableViewController.swift in Sources */,
+				D3DE0B301C90E0C7004A7ED5 /* PayGeek.xcdatamodeld in Sources */,
 				A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +471,7 @@
 				A9568CA61C85406100BBBF84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9568CA71C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeekTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				A9568CA91C85406100BBBF84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9568CAA1C85406100BBBF84 /* Build configuration list for PBXNativeTarget "PayGeekUITests" */ = {
 			isa = XCConfigurationList;
@@ -483,8 +489,22 @@
 				A9568CAC1C85406100BBBF84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3DE0B2E1C90E0C7004A7ED5 /* PayGeek.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3DE0B2F1C90E0C7004A7ED5 /* PayGeek.xcdatamodel */,
+			);
+			currentVersion = D3DE0B2F1C90E0C7004A7ED5 /* PayGeek.xcdatamodel */;
+			path = PayGeek.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A9568C741C85406100BBBF84 /* Project object */;
 }
