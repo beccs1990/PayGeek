@@ -74,16 +74,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        var cell: IncomeViewCell?
+        var cell:UITableViewCell?
         
         if tableView == self.incomeTab {
-            cell = tableView.dequeueReusableCellWithIdentifier("incomeOver", forIndexPath: indexPath) as? IncomeViewCell
+            cell = tableView.dequeueReusableCellWithIdentifier("incomeOver", forIndexPath: indexPath)
+            let previewDetail = sampleData[indexPath.row]
+            cell!.textLabel!.text = previewDetail.title
             
         }
         
         if tableView == self.expenseTab {
-            cell = tableView.dequeueReusableCellWithIdentifier("expenseRecent", forIndexPath: indexPath) as? IncomeViewCell
+            cell = tableView.dequeueReusableCellWithIdentifier("expenseRecent", forIndexPath: indexPath)
+            let previewDetail = sampleData1[indexPath.row]
+            cell!.textLabel!.text = previewDetail.title
+            
         }
+        
+        
         
         return cell!
     }
