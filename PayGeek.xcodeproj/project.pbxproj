@@ -25,6 +25,8 @@
 		A9568CC21C8549CC00BBBF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */; };
 		A9568CC31C8549CC00BBBF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC11C8549CC00BBBF84 /* Main.storyboard */; };
 		D3DE0B301C90E0C7004A7ED5 /* PayGeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3DE0B2E1C90E0C7004A7ED5 /* PayGeek.xcdatamodeld */; };
+		D3ECA5F91C964A500038715F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECA5F81C964A500038715F /* Category.swift */; };
+		D3ECA5FB1C9655A70038715F /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECA5FA1C9655A70038715F /* AddCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9568CC11C8549CC00BBBF84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D3DE0B2F1C90E0C7004A7ED5 /* PayGeek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayGeek.xcdatamodel; sourceTree = "<group>"; };
+		D3ECA5F81C964A500038715F /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D3ECA5FA1C9655A70038715F /* AddCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 			children = (
 				A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */,
 				A9568CC11C8549CC00BBBF84 /* Main.storyboard */,
+				D3ECA5FA1C9655A70038715F /* AddCategoryViewController.swift */,
 				83741C7A1C936DD0003BC27E /* AddViewController.swift */,
 				A9568C7F1C85406100BBBF84 /* AppDelegate.swift */,
 				D3DE0B2E1C90E0C7004A7ED5 /* PayGeek.xcdatamodeld */,
@@ -130,6 +135,7 @@
 				83741C1F1C9113DA003BC27E /* ViewController.swift */,
 				A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */,
 				83741C151C910DF5003BC27E /* CategoryViewCell.swift */,
+				D3ECA5F81C964A500038715F /* Category.swift */,
 				83741C171C910E06003BC27E /* IncomeViewController.swift */,
 				83741C191C910E11003BC27E /* ExpensesViewController.swift */,
 				83741C1B1C910E2C003BC27E /* IncomeViewCell.swift */,
@@ -300,8 +306,10 @@
 				83741C1C1C910E2C003BC27E /* IncomeViewCell.swift in Sources */,
 				A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */,
 				83741C7D1C937551003BC27E /* Income.swift in Sources */,
+				D3ECA5FB1C9655A70038715F /* AddCategoryViewController.swift in Sources */,
 				83741C7F1C9392A8003BC27E /* Expense.swift in Sources */,
 				83741C161C910DF5003BC27E /* CategoryViewCell.swift in Sources */,
+				D3ECA5F91C964A500038715F /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
