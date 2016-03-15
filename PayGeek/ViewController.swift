@@ -83,6 +83,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         do {
             MyIncome = try moc.executeFetchRequest(fr) as! [Income]
             MyExpense = try moc.executeFetchRequest(fr2) as! [Expense]
+            incomeTab.reloadData()
+            expenseTab.reloadData()
             //self.tableView.reloadData()
             // success ...
             print("count in : \(MyIncome.count)")

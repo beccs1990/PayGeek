@@ -185,6 +185,9 @@
                                     <segment title="Income"/>
                                     <segment title="Expense"/>
                                 </segments>
+                                <connections>
+                                    <action selector="indexChanged:" destination="oiF-Vk-ryQ" eventType="valueChanged" id="bBD-vq-rpx"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -193,6 +196,7 @@
                         <outlet property="amount" destination="Mpk-7Q-QP2" id="roz-hr-Nrq"/>
                         <outlet property="category" destination="RII-6z-KHi" id="SLa-Ha-GNG"/>
                         <outlet property="name" destination="2qG-E3-5aQ" id="U5g-oH-vFh"/>
+                        <outlet property="segmentedControl" destination="7Au-eO-wLN" id="J7s-e6-Xpb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVP-uz-7N1" userLabel="First Responder" sceneMemberID="firstResponder"/>
