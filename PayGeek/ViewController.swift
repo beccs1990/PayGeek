@@ -60,6 +60,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         do {
             MyIncome = try moc.executeFetchRequest(fr) as! [Income]
             MyExpense = try moc.executeFetchRequest(fr2) as! [Expense]
+            
+            print("count in : \(MyIncome.count)")
+            print("count in : \(MyExpense.count)")
             //self.tableView.reloadData()
             // success ...
         } catch let error as NSError {
@@ -82,6 +85,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             MyExpense = try moc.executeFetchRequest(fr2) as! [Expense]
             //self.tableView.reloadData()
             // success ...
+            print("count in : \(MyIncome.count)")
+            print("count in : \(MyExpense.count)")
         } catch let error as NSError {
             // failure
             print("Fetch failed: \(error.localizedDescription)")
@@ -119,14 +124,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         var cell:UITableViewCell?
         
-        var incomeItem : Income!
-        var expenseItem : Expense!
+ //       var incomeItem : Income!
+ //       var expenseItem : Expense!
         
         if tableView == self.incomeTab {
             cell = tableView.dequeueReusableCellWithIdentifier("incomeOver", forIndexPath: indexPath)
             //let previewDetail = sampleData[indexPath.row]
             //cell!.textLabel!.text = previewDetail.title
-            cell!.textLabel!.text = incomeItem.name
+            cell!.textLabel!.text = MyIncome[indexPath.row].name
             
         }
         
@@ -134,7 +139,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             cell = tableView.dequeueReusableCellWithIdentifier("expenseRecent", forIndexPath: indexPath)
             //let previewDetail = sampleData1[indexPath.row]
             //cell!.textLabel!.text = previewDetail.title
-            cell!.textLabel!.text = expenseItem.name
+            cell!.textLabel!.text = MyExpense[indexPath.row].name
         }
         
         

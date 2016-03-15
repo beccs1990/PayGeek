@@ -14,8 +14,8 @@
 		83741C1E1C910E33003BC27E /* ExpenseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83741C1D1C910E33003BC27E /* ExpenseViewCell.swift */; };
 		83741C201C9113DA003BC27E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83741C1F1C9113DA003BC27E /* ViewController.swift */; };
 		83741C7B1C936DD0003BC27E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83741C7A1C936DD0003BC27E /* AddViewController.swift */; };
-		83741C7D1C937551003BC27E /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83741C7C1C937551003BC27E /* Income.swift */; };
-		83741C7F1C9392A8003BC27E /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83741C7E1C9392A8003BC27E /* Expense.swift */; };
+		83C35EE81C97AD5600DCAF73 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C35EE71C97AD5600DCAF73 /* Expense.swift */; };
+		83C35EEA1C97ADE800DCAF73 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C35EE91C97ADE800DCAF73 /* Income.swift */; };
 		A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C7F1C85406100BBBF84 /* AppDelegate.swift */; };
 		A9568C821C85406100BBBF84 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C811C85406100BBBF84 /* CreateAccountViewController.swift */; };
 		A9568C871C85406100BBBF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9568C861C85406100BBBF84 /* Assets.xcassets */; };
@@ -54,8 +54,8 @@
 		83741C1D1C910E33003BC27E /* ExpenseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseViewCell.swift; sourceTree = "<group>"; };
 		83741C1F1C9113DA003BC27E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83741C7A1C936DD0003BC27E /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		83741C7C1C937551003BC27E /* Income.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
-		83741C7E1C9392A8003BC27E /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		83C35EE71C97AD5600DCAF73 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = ../Expense.swift; sourceTree = "<group>"; };
+		83C35EE91C97ADE800DCAF73 /* Income.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Income.swift; path = ../Income.swift; sourceTree = "<group>"; };
 		A9568C7C1C85406100BBBF84 /* PayGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9568C7F1C85406100BBBF84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9568C811C85406100BBBF84 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +123,8 @@
 		A9568C7E1C85406100BBBF84 /* PayGeek */ = {
 			isa = PBXGroup;
 			children = (
+				83C35EE91C97ADE800DCAF73 /* Income.swift */,
+				83C35EE71C97AD5600DCAF73 /* Expense.swift */,
 				A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */,
 				A9568CC11C8549CC00BBBF84 /* Main.storyboard */,
 				D3ECA5FA1C9655A70038715F /* AddCategoryViewController.swift */,
@@ -140,8 +142,6 @@
 				83741C191C910E11003BC27E /* ExpensesViewController.swift */,
 				83741C1B1C910E2C003BC27E /* IncomeViewCell.swift */,
 				83741C1D1C910E33003BC27E /* ExpenseViewCell.swift */,
-				83741C7C1C937551003BC27E /* Income.swift */,
-				83741C7E1C9392A8003BC27E /* Expense.swift */,
 			);
 			path = PayGeek;
 			sourceTree = "<group>";
@@ -295,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C35EE81C97AD5600DCAF73 /* Expense.swift in Sources */,
 				83741C201C9113DA003BC27E /* ViewController.swift in Sources */,
 				83741C1E1C910E33003BC27E /* ExpenseViewCell.swift in Sources */,
 				A9568C821C85406100BBBF84 /* CreateAccountViewController.swift in Sources */,
@@ -305,10 +306,9 @@
 				83741C181C910E06003BC27E /* IncomeViewController.swift in Sources */,
 				83741C1C1C910E2C003BC27E /* IncomeViewCell.swift in Sources */,
 				A9568C801C85406100BBBF84 /* AppDelegate.swift in Sources */,
-				83741C7D1C937551003BC27E /* Income.swift in Sources */,
 				D3ECA5FB1C9655A70038715F /* AddCategoryViewController.swift in Sources */,
-				83741C7F1C9392A8003BC27E /* Expense.swift in Sources */,
 				83741C161C910DF5003BC27E /* CategoryViewCell.swift in Sources */,
+				83C35EEA1C97ADE800DCAF73 /* Income.swift in Sources */,
 				D3ECA5F91C964A500038715F /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

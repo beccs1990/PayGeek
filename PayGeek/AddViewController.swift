@@ -16,6 +16,8 @@ class AddViewController: UIViewController {
     @IBOutlet var amount: UITextField!
     @IBOutlet var category: UITextField!
     
+    var ieText : String!
+    
     var NewIncome : Income!
     var NewExpense: Expense!
     
@@ -35,21 +37,29 @@ class AddViewController: UIViewController {
     
     @IBAction func ClickedSave(sender: AnyObject) {
         
+        ieText = IncExp.text!
+        
         let myMOC = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
         
-        if (IncExp == "Income"){
+        if (ieText == "Income"){
         
             NewIncome = NSEntityDescription.insertNewObjectForEntityForName("Income", inManagedObjectContext: myMOC) as! Income
             self.NewIncome?.name = self.name.text!
             self.NewIncome?.amount = self.amount.text!
             self.NewIncome?.category = self.category.text!
+
         }
-        else if (IncExp == "Expense"){
+        else if (ieText == "Expense"){
             NewExpense = NSEntityDescription.insertNewObjectForEntityForName("Expense", inManagedObjectContext: myMOC) as! Expense
             self.NewExpense?.name = self.name.text!
             self.NewExpense?.amount = self.amount.text!
             self.NewExpense?.category = self.category.text!
             
+        }
+        do{
+            try myMOC.save()
+        } catch let error as NSError{
+            print("DB error \(error.localizedDescription)")
         }
         
         
