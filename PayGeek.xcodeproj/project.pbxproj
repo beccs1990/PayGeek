@@ -21,7 +21,6 @@
 		A9568C871C85406100BBBF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9568C861C85406100BBBF84 /* Assets.xcassets */; };
 		A9568C951C85406100BBBF84 /* PayGeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C941C85406100BBBF84 /* PayGeekTests.swift */; };
 		A9568CA01C85406100BBBF84 /* PayGeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568C9F1C85406100BBBF84 /* PayGeekUITests.swift */; };
-		A9568CAE1C8546F900BBBF84 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */; };
 		A9568CC21C8549CC00BBBF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */; };
 		A9568CC31C8549CC00BBBF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9568CC11C8549CC00BBBF84 /* Main.storyboard */; };
 		D3DE0B301C90E0C7004A7ED5 /* PayGeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3DE0B2E1C90E0C7004A7ED5 /* PayGeek.xcdatamodeld */; };
@@ -67,7 +66,6 @@
 		A9568C9B1C85406100BBBF84 /* PayGeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayGeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9568C9F1C85406100BBBF84 /* PayGeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayGeekUITests.swift; sourceTree = "<group>"; };
 		A9568CA11C85406100BBBF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		A9568CC01C8549CC00BBBF84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9568CC11C8549CC00BBBF84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D3DE0B2F1C90E0C7004A7ED5 /* PayGeek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayGeek.xcdatamodel; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				A9568C861C85406100BBBF84 /* Assets.xcassets */,
 				A9568C8B1C85406100BBBF84 /* Info.plist */,
 				83741C1F1C9113DA003BC27E /* ViewController.swift */,
-				A9568CAD1C8546F900BBBF84 /* MainTableViewController.swift */,
 				83741C151C910DF5003BC27E /* CategoryViewCell.swift */,
 				D3ECA5F81C964A500038715F /* Category.swift */,
 				83741C171C910E06003BC27E /* IncomeViewController.swift */,
@@ -301,7 +298,6 @@
 				A9568C821C85406100BBBF84 /* CreateAccountViewController.swift in Sources */,
 				83741C7B1C936DD0003BC27E /* AddViewController.swift in Sources */,
 				83741C1A1C910E11003BC27E /* ExpensesViewController.swift in Sources */,
-				A9568CAE1C8546F900BBBF84 /* MainTableViewController.swift in Sources */,
 				D3DE0B301C90E0C7004A7ED5 /* PayGeek.xcdatamodeld in Sources */,
 				83741C181C910E06003BC27E /* IncomeViewController.swift in Sources */,
 				83741C1C1C910E2C003BC27E /* IncomeViewCell.swift in Sources */,

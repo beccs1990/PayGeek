@@ -11,12 +11,29 @@ import CoreData
 
 class AddViewController: UIViewController {
 
-    @IBOutlet var IncExp: UITextField!
+
     @IBOutlet var name: UITextField!
     @IBOutlet var amount: UITextField!
     @IBOutlet var category: UITextField!
+
+    @IBOutlet var segmentedControl: UISegmentedControl!
     
-    var ieText : String!
+    var ieText : String! = "Income"
+    
+    @IBAction func indexChanged(sender: AnyObject) {
+        switch segmentedControl.selectedSegmentIndex
+        {
+        case 0:
+            ieText = "Income"
+        case 1:
+            ieText = "Expense"
+        default:
+            break; 
+        }
+    }
+    
+    
+    
     
     var NewIncome : Income!
     var NewExpense: Expense!
@@ -37,7 +54,7 @@ class AddViewController: UIViewController {
     
     @IBAction func ClickedSave(sender: AnyObject) {
         
-        ieText = IncExp.text!
+        //ieText = IncExp.text!
         
         let myMOC = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
         
