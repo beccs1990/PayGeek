@@ -14,6 +14,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet var incomeTab: UITableView!
     @IBOutlet var expenseTab: UITableView!
     
+    @IBOutlet var incomeTotal: UILabel!
+    
+    @IBOutlet var expenseTotal: UILabel!
+    
+    
     struct PreviewDetail {
         let title: String
     }
@@ -71,6 +76,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         /////
         
+        
     }
     ////
     override func viewDidAppear(animated: Bool) {
@@ -93,6 +99,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             // failure
             print("Fetch failed: \(error.localizedDescription)")
         }
+        
+        var incTotal: Double = 0
+        
+        for var i = 0; i < MyIncome.count ; ++i {
+            incTotal += Double(MyIncome[i].amount)!
+        }
+        incomeTotal.text = "Total: $ " + String(incTotal)
+        
+        var expTotal: Double = 0
+        
+        for var i = 0; i < MyExpense.count ; ++i {
+            expTotal += Double(MyExpense[i].amount)!
+        }
+        expenseTotal.text = "Total: $ " + String(expTotal)
+        
     }
     //////
     
