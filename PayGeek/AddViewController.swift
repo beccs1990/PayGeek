@@ -9,13 +9,12 @@
 import UIKit
 import CoreData
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
 
     @IBOutlet var name: UITextField!
     @IBOutlet var amount: UITextField!
-    @IBOutlet var category: UITextField!
-
+    var pickCat : String = "LON"
     @IBOutlet var segmentedControl: UISegmentedControl!
     
     var ieText : String! = "Income"
@@ -33,14 +32,30 @@ class AddViewController: UIViewController {
     }
     
     
-    
+    var arr: NSArray = []
     
     var NewIncome : Income!
     var NewExpense: Expense!
     
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return arr.count
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return "\(arr[row])"
+    }
+    
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        pickCat = arr[row] as! String
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        arr = ["LON","MOR","MIS"]
         // Do any additional setup after loading the view.
     }
 
@@ -63,14 +78,14 @@ class AddViewController: UIViewController {
             NewIncome = NSEntityDescription.insertNewObjectForEntityForName("Income", inManagedObjectContext: myMOC) as! Income
             self.NewIncome?.name = self.name.text!
             self.NewIncome?.amount = self.amount.text!
-            self.NewIncome?.category = self.category.text!
+            self.NewIncome?.category = pickCat
 
         }
         else if (ieText == "Expense"){
             NewExpense = NSEntityDescription.insertNewObjectForEntityForName("Expense", inManagedObjectContext: myMOC) as! Expense
             self.NewExpense?.name = self.name.text!
             self.NewExpense?.amount = self.amount.text!
-            self.NewExpense?.category = self.category.text!
+            self.NewExpense?.category = pickCat
             
         }
         do{
