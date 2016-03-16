@@ -162,7 +162,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             cell = tableView.dequeueReusableCellWithIdentifier("expenseRecent", forIndexPath: indexPath)
             //let previewDetail = sampleData1[indexPath.row]
             //cell!.textLabel!.text = previewDetail.title
-            cell!.textLabel!.text = MyExpense[indexPath.row].name + "[\(MyIncome[indexPath.row].category)]:       $" + MyExpense[indexPath.row].amount
+            cell!.textLabel!.text = MyExpense[indexPath.row].name + "[\(MyExpense[indexPath.row].category)]:       $" + MyExpense[indexPath.row].amount
         }
         
         
